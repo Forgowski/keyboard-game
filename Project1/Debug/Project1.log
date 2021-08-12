@@ -1,0 +1,18 @@
+﻿Source.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glClearDepth@8 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glColorPointer@16 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glDepthMask@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glDisable@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glDisableClientState@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glDrawArrays@12 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glEnable@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glEnableClientState@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glFrustum@48 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glLoadIdentity@0 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glMatrixMode@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glRotatef@16 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glTranslatef@12 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glVertexPointer@16 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glViewport@16 referenced in function _main
+C:\Users\krzys\Desktop\CPP\praca1\Project1\Debug\Project1.exe : fatal error LNK1120: 17 unresolved externals
