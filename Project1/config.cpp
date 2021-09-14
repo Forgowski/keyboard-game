@@ -22,7 +22,7 @@ void config()
 	MYW.lvl3.setPosition(20, 160);
 
 	MYW.lvl4.setFont(MYW.ttf);
-	MYW.lvl4.setString("4.expert");
+	MYW.lvl4.setString("4.Expert");
 	MYW.lvl4.setCharacterSize(20);
 	MYW.lvl4.setPosition(20, 200);
 
@@ -58,35 +58,32 @@ void configdraw()
 }
 void lvl()
 {
-	if (MYW.configstatus == 0)
+	if (MYW.configstatus == 0 && MYW.e.type == Event::MouseButtonPressed && MYW.e.mouseButton.button == Mouse::Left)
 	{
-		if (MYW.e.type == Event::MouseButtonPressed && MYW.e.mouseButton.button == Mouse::Left)
-		{
 			if (MYW.lvl1.getGlobalBounds().contains(Vector2f(Mouse::getPosition(MYW.W))))
 			{
 				MYW.lvl = 120;
 				MYW.configstatus = 1;
 			}
-			if (MYW.lvl2.getGlobalBounds().contains(Vector2f(Mouse::getPosition(MYW.W))))
+			else if (MYW.lvl2.getGlobalBounds().contains(Vector2f(Mouse::getPosition(MYW.W))))
 			{
 				MYW.lvl = 90;
 				MYW.configstatus = 1;
 			}
-			if (MYW.lvl3.getGlobalBounds().contains(Vector2f(Mouse::getPosition(MYW.W))))
+			else if (MYW.lvl3.getGlobalBounds().contains(Vector2f(Mouse::getPosition(MYW.W))))
 			{
 				MYW.lvl = 60;
 				MYW.configstatus = 1;
 			}
-			if (MYW.lvl4.getGlobalBounds().contains(Vector2f(Mouse::getPosition(MYW.W))))
+			else if (MYW.lvl4.getGlobalBounds().contains(Vector2f(Mouse::getPosition(MYW.W))))
 			{
 				MYW.lvl = 45;
 				MYW.configstatus = 1;
 			}
-			if (MYW.lvl5.getGlobalBounds().contains(Vector2f(Mouse::getPosition(MYW.W))))
+			else if (MYW.lvl5.getGlobalBounds().contains(Vector2f(Mouse::getPosition(MYW.W))))
 			{
 				MYW.lvl = 30;
 				MYW.configstatus = 1;
 			}
-		}
 	}
 }

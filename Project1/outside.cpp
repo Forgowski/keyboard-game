@@ -57,221 +57,135 @@ void restart()
 }
 void whichkey()
 {
-	if (Keyboard::isKeyPressed(Keyboard::Q))
+	if (Keyboard::isKeyPressed(Keyboard::Q) && MYW.topress == "q")
 	{
-		if (MYW.topress == "q")
-		{
 			MYW.list.pop_front();
-			MYW.score++;
-			
-		}
-		
+			MYW.score++;		
 	}
-	if (Keyboard::isKeyPressed(Keyboard::W))
+	else if (Keyboard::isKeyPressed(Keyboard::W) && MYW.topress == "w")
 	{
-		if (MYW.topress == "w")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
-		
 	}
-	if (Keyboard::isKeyPressed(Keyboard::E))
+	else if (Keyboard::isKeyPressed(Keyboard::E) && MYW.topress == "e")
 	{
-		if (MYW.topress == "e")
-		{
 			MYW.list.pop_front();
-			MYW.score++;
-		}
-		
+			MYW.score++;	
 	}
-	if (Keyboard::isKeyPressed(Keyboard::R))
+	else if (Keyboard::isKeyPressed(Keyboard::R) && MYW.topress == "r")
 	{
-		if (MYW.topress == "r")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}		
 	}
-	if (Keyboard::isKeyPressed(Keyboard::T))
+	else if (Keyboard::isKeyPressed(Keyboard::T) && MYW.topress == "t")
 	{
-		if (MYW.topress == "t")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::Y))
+	else if (Keyboard::isKeyPressed(Keyboard::Y) && MYW.topress == "y")
 	{
-		if (MYW.topress == "y")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::U))
-	{
-		if (MYW.topress == "u")
-		{
+	else if (Keyboard::isKeyPressed(Keyboard::U) && MYW.topress == "u")
+	{	
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::I))
+	else if (Keyboard::isKeyPressed(Keyboard::I) && MYW.topress == "i")
 	{
-		if (MYW.topress == "i")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::O))
+	else if (Keyboard::isKeyPressed(Keyboard::O) && MYW.topress == "o")
 	{
-		if (MYW.topress == "o")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::P))
+	else if (Keyboard::isKeyPressed(Keyboard::P) && MYW.topress == "p")
 	{
-		if (MYW.topress == "p")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::A))
+	else if (Keyboard::isKeyPressed(Keyboard::A) && MYW.topress == "a")
 	{
-		if (MYW.topress == "a")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::S))
+	else if (Keyboard::isKeyPressed(Keyboard::S) && MYW.topress == "s")
 	{
-		if (MYW.topress == "s")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::D))
+	else if (Keyboard::isKeyPressed(Keyboard::D) && MYW.topress == "d")
 	{
-		if (MYW.topress == "d")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::F))
+	else if (Keyboard::isKeyPressed(Keyboard::F) && MYW.topress == "f")
 	{
-		if (MYW.topress == "f")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::G))
+	else if (Keyboard::isKeyPressed(Keyboard::G) && MYW.topress == "g")
 	{
-		if (MYW.topress == "g")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::H))
+	else if (Keyboard::isKeyPressed(Keyboard::H) && MYW.topress == "h")
 	{
-		if (MYW.topress == "h")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::J))
+	else if (Keyboard::isKeyPressed(Keyboard::J) && MYW.topress == "j")
 	{
-		if (MYW.topress == "j")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
-
 	}
-	if (Keyboard::isKeyPressed(Keyboard::K))
+	else if (Keyboard::isKeyPressed(Keyboard::K) && MYW.topress == "k")
 	{
-		if (MYW.topress == "k")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::L))
+	else if (Keyboard::isKeyPressed(Keyboard::L) && MYW.topress == "l")
 	{
-		if (MYW.topress == "l")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
-
 	}
-	if (Keyboard::isKeyPressed(Keyboard::Z))
+	else if (Keyboard::isKeyPressed(Keyboard::Z) && MYW.topress == "z")
 	{
-		if (MYW.topress == "z")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::X))
+	else if (Keyboard::isKeyPressed(Keyboard::X) && MYW.topress == "x")
 	{
-		if (MYW.topress == "x")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::C))
+	else if (Keyboard::isKeyPressed(Keyboard::C) && MYW.topress == "c")
 	{
-		if (MYW.topress == "c")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::V))
+	else if (Keyboard::isKeyPressed(Keyboard::V) && MYW.topress == "v")
 	{
-		if (MYW.topress == "v")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::B))
+	else if (Keyboard::isKeyPressed(Keyboard::B) && MYW.topress == "b")
 	{
-		if (MYW.topress == "b")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
 	}
-	if (Keyboard::isKeyPressed(Keyboard::N))
+	else if (Keyboard::isKeyPressed(Keyboard::N) && MYW.topress == "n")
 	{
-		if (MYW.topress == "n")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
-
 	}
-	if (Keyboard::isKeyPressed(Keyboard::M))
+	else if (Keyboard::isKeyPressed(Keyboard::M) && MYW.topress == "m")
 	{
-		if (MYW.topress == "m")
-		{
 			MYW.list.pop_front();
 			MYW.score++;
-		}
-
 	}
 
 }

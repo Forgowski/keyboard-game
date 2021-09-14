@@ -5,7 +5,7 @@ App::App()
 
 	W.create(VideoMode(width, height, 32), "Test");
 	W.setActive(true);
-	W.setFramerateLimit(60);
+	W.setFramerateLimit(80);
 	W.setPosition(Vector2i(0, 0));
 	string s;
 	string h = "qwertyuiopasdfghjklzxcvbnm";
